@@ -1,0 +1,73 @@
+{
+  "name": "cdktf-azure-providers",
+  "author": "Cyrus Wong",
+  "version": "0.0.2",
+  "repository": {
+    "url": "https://github.com/wongcyrus/AzureConstructLib",
+    "type": "remote"
+  },
+  "main": "patterns/index.js",
+  "types": "patterns/index.ts",
+  "license": "MPL-2.0",
+  "keywords": [
+    "cdk-tf",
+    "azure"
+  ],
+  "scripts": {
+    "get": "cdktf get",
+    "build": "tsc",
+    "synth": "cdktf synth",
+    "compile": "tsc --pretty",
+    "watch": "tsc -w",
+    "test": "tsc && jest",
+    "test:watch": "jest --watch",
+    "upgrade": "npm i cdktf@latest cdktf-cli@latest",
+    "upgrade:next": "npm i cdktf@next cdktf-cli@next",
+    "build-jsii": "jsii",
+    "build-jsii:watch": "jsii -w",
+    "package-jsii": "jsii-pacmak"
+  },
+  "engines": {
+    "node": ">=14.0"
+  },
+  "peerDependencies": {
+    "cdktf": "^0.11.1",
+    "constructs": "^10.1.22"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.5.1",
+    "@types/node": "^17.0.36",
+    "@types/prettier": "2.6.0",
+    "cdktf": "^0.11.1",
+    "cdktf-cli": "^0.11.1",
+    "constructs": "^10.1.22",
+    "jest": "^28.1.0",
+    "ts-jest": "^28.0.3",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.7.2"
+  },
+  "jsii": {
+    "excludeTypescript": [
+      "*.d.ts",
+      "cdktf.out"
+    ],
+    "outdir": "dist",
+    "targets": {
+      "python": {
+        "distName": "azure-common-construct",
+        "module": "azure-common-construct.base"
+      },
+      "java": {
+        "package": "com.cloudlabhk.azurecommoncontruct",
+        "maven": {
+          "groupId": "com.cloudlabhk.azurecommoncontruct",
+          "artifactId": "azure-common-construct"
+        }
+      },
+      "dotnet": {
+        "namespace": "AzureCommonConstruct.Jsii",
+        "packageId": "AzureCommonConstruct.Jsii"
+      }
+    }
+  }
+}
