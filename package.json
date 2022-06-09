@@ -1,7 +1,7 @@
 {
   "name": "cdktf-azure-providers",
   "author": "Cyrus Wong",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "repository": {
     "url": "https://github.com/wongcyrus/AzureConstructLib",
     "type": "remote"
