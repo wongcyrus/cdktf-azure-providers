@@ -1,6 +1,7 @@
 # cdktf-azure-providers
 
 This package includes:
+```
     "azurerm@~>3.9.0",
     "azuread@~>2.22.0",
     "random@~>3.3.1",
@@ -11,6 +12,7 @@ This package includes:
     "template@~>2.2.0",
     "local@~>2.2.3",
     "time@~>0.7.2"
+ ```
 
 
 To publish new version, you need to compile ts in .gen to js.
