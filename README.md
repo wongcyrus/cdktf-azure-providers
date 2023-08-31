@@ -2,16 +2,16 @@
 
 This package includes:
 ```
-    "azurerm@~>3.9.0",
-    "azuread@~>2.22.0",
-    "random@~>3.3.1",
-    "null@~>3.1.1",
-    "external@~>2.2.2",
-    "archive@~>2.2.0",
-    "http@~>2.2.0",
+    "azurerm@~>3.71.0",
+    "azuread@~>2.41.0",
+    "random@~>3.5.1",
+    "null@~>3.2.1",
+    "external@~>2.3.1",
+    "archive@~>2.4.0",
+    "http@~>3.4.0",
     "template@~>2.2.0",
-    "local@~>2.2.3",
-    "time@~>0.7.2"
+    "local@~>2.4.0",
+    "time@~>0.9.1"
  ```
 
 

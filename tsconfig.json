@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
-    "alwaysStrict": true,
-    "charset": "utf8",
+    "alwaysStrict": true,   
     "declaration": true,
     "experimentalDecorators": true,
     "inlineSourceMap": true,
