@@ -1,6 +1,9 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
-    "ghcr.io/joedmck/devcontainer-features/cdktf:1": {}
+    "ghcr.io/devcontainers-contrib/features/terraform-asdf:2": {}
+  },
+  "hostRequirements": {
+    "memory": "8gb"
   }
 }
