@@ -2,16 +2,16 @@
 
 This package includes:
 ```
-    "azurerm@~>3.109.0",
-    "azuread@~>2.52.0",
+    "azurerm@~>4.0.0",
+    "azuread@~>3.0.0",
     "random@~>3.6.2",
-    "null@~>3.2.2",
-    "external@~>2.3.3",
-    "archive@~>2.4.2",
-    "http@~>3.4.3",
+    "null@~>3.2.4",
+    "external@~>2.3.4",
+    "archive@~>2.7.0",
+    "http@~>3.4.4",
     "template@~>2.2.0",
-    "local@~>2.5.1",
-    "time@~>0.11.2"
+    "local@~>2.5.2",
+    "time@~>0.12.0"
  ```
 
 Install CDKTF and login npm

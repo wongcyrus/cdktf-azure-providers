@@ -1,7 +1,7 @@
 {
   "name": "cdktf-azure-providers",
   "author": "Cyrus Wong",
-  "version": "0.0.12",
+  "version": "0.0.14",
   "repository": {
     "url": "https://github.com/wongcyrus/AzureConstructLib",
     "type": "remote"
@@ -31,13 +31,12 @@
     "node": ">=14.0"
   },
   "peerDependencies": {
-    "cdktf": "^0.20.7",
-    "constructs": "^10.3.0"
+    "cdktf": "^0.21.0",
+    "constructs": "^10.4.2"
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
     "@types/node": "^24.2.0",
-    "@types/prettier": "3.0.0",
     "cdktf": "^0.21.0",
     "cdktf-cli": "^0.21.0",
     "constructs": "^10.4.2",
