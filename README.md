@@ -8,7 +8,7 @@ This package includes:
     "null@~>3.2.4",
     "external@~>2.3.5",
     "archive@~>2.7.1",
-    "http@~>3.5.4",
+    "http@~>3.5.0",
     "template@~>2.2.0",
     "local@~>2.5.3",
     "time@~>0.13.1"
