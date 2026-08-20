@@ -4,6 +4,6 @@
     "ghcr.io/devcontainers-contrib/features/terraform-asdf:2": {}
   },
   "hostRequirements": {
-    "memory": "8gb"
+    "memory": "12gb"
   }
 }

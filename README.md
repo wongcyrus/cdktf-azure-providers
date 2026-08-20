@@ -1,6 +1,13 @@
-# cdktf-azure-providers
+# CDK Terrain Azure providers
 
-This package includes:
+This package contains CDK Terrain bindings for a pinned set of Terraform
+providers used by the Azure construct libraries in this organization.
+
+The npm package retains the historical `cdktf-azure-providers` name for
+compatibility, but version `0.1.0` and later use CDK Terrain (`cdktn`) and do
+not depend on the deprecated CDK for Terraform framework.
+
+Provider versions:
 ```
     "azurerm@~>4.40.0",
     "azuread@~>3.5.0",
@@ -14,18 +21,26 @@ This package includes:
     "time@~>0.13.1"
  ```
 
-Install CDKTF and login npm
+## Development
+
+Node.js 22.19 or newer is required.
+Generating and compiling the AzureRM bindings requires a memory-constrained
+Node.js build process; use a development environment with at least 12 GB RAM.
+
 ```
-npm install --global cdktf-cli@latest
-npm adduser
+npm install
+npm run get
+npm test
 ```
 
-To publish new version, you need to compile ts in .gen to js.
+Provider bindings are generated into `.gen` and included in the npm package.
+The generated directory is intentionally not committed.
+
+To publish a new version:
+
 ```
-npm run get
 npm run build
+npm pack --dry-run
 npm publish
 ```
-
-
 
