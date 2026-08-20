@@ -17,7 +17,7 @@
   ],
   "scripts": {
     "get": "cdktn get",
-    "build": "node --max-old-space-size=6144 node_modules/typescript/bin/tsc",
+    "build": "node --max-old-space-size=6144 \"$(node -p 'require.resolve(\"typescript/bin/tsc\")')\"",
     "synth": "cdktn synth",
     "compile": "tsc --pretty",
     "watch": "tsc -w",
