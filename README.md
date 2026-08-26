@@ -9,21 +9,20 @@ not depend on the deprecated CDK for Terraform framework.
 
 Provider versions:
 ```
-    "azurerm@~>4.40.0",
-    "azuread@~>3.5.0",
-    "random@~>3.7.2",
-    "null@~>3.2.4",
-    "external@~>2.3.5",
-    "archive@~>2.7.1",
-    "http@~>3.5.0",
-    "template@~>2.2.0",
-    "local@~>2.5.3",
-    "time@~>0.13.1"
+    "azurerm@~>5.2.0",
+    "azuread@~>3.9.0",
+    "random@~>3.9.0",
+    "null@~>3.3.1",
+    "external@~>2.4.1",
+    "archive@~>2.8.0",
+    "http@~>3.6.1",
+    "local@~>2.9.0",
+    "time@~>0.14.1"
  ```
 
 ## Development
 
-Node.js 22.19 or newer is required.
+Node.js 24.19 or newer is required.
 Generating and compiling the AzureRM bindings requires a memory-constrained
 Node.js build process; use a development environment with at least 12 GB RAM.
 
@@ -43,4 +42,3 @@ npm run build
 npm pack --dry-run
 npm publish
 ```
-
